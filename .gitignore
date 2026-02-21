@@ -10,3 +10,5 @@ data/
 # OS files
 .DS_Store
 Thumbs.db
+
+config.inc.php
