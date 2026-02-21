@@ -40,6 +40,8 @@ services:
     tmpfs:
       - /tmp
       - /sessions
+      - /etc/phpmyadmin
+      - /var/run/apache2
     logging:
       driver: json-file
       options:
